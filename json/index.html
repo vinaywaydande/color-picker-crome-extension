@@ -1,0 +1,35 @@
+<style>
+    #main {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #done {
+        margin-top: 20px;
+        background: blue;
+        width: 100px;
+        color: white;
+        border-radius: 50px;
+        padding: 10px;
+    }
+
+    #copyColorBtn {
+        background: green;
+        color: white;
+        width: 30%;
+        padding: 10px;
+        border-radius: 50px;
+    }
+</style>
+
+<div id="main">
+    <h4>use pin point to get color</h4>
+    <input type="color" name="" id="pickedcolor" style="width: 100%;">
+    <button id="done">Done</button>
+    <p id="clr"></p>
+    <button id="copyColorBtn">Copy Color Code</button>
+    <script src="app.js"></script>
+</div>
